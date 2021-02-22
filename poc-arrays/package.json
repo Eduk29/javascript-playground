@@ -1,0 +1,24 @@
+{
+  "name": "array-labs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "mocha -r esm --recursive './src/*/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduk29/poc-arrays.git"
+  },
+  "author": "Eduardo Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduk29/poc-arrays/issues"
+  },
+  "homepage": "https://github.com/Eduk29/poc-arrays#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^7.1.1"
+  }
+}
