@@ -1,0 +1,31 @@
+{
+  "name": "poc-jest-javascript",
+  "version": "1.0.0",
+  "description": "This application is a preliminary study using [JEST](https://jestjs.io/en/) with Javascript for Unit Test. Feel free to comment, leave your code review, ask something or any contribution, it will be a pleasure receive them. I hope that you enjoy. :metal:",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "rest": "^2.0.0",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Eduk2@bitbucket.org/Eduk2/poc-jest-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Eduk2/poc-jest-javascript#readme"
+}
